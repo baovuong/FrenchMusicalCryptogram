@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="SwiBcS" name="FrenchMusicalCryptogram" displaySplashScreen="1"
+              reportAppUsage="1" splashScreenColour="Dark" projectType="guiapp"
+              version="1.0.0" bundleIdentifier="com.yourcompany.FrenchMusicalCryptogram"
+              includeBinaryInAppConfig="1" cppLanguageStandard="11" jucerVersion="5.1.2">
+  <MAINGROUP id="AiVs6U" name="FrenchMusicalCryptogram">
+    <GROUP id="{22C2B078-2C49-2AB2-C89F-3EC861C47961}" name="Source">
+      <FILE id="CCOFXY" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="POOgmZ" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="rKzTOS" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="FrenchMusicalCryptogram"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="FrenchMusicalCryptogram"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Programs/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="FrenchMusicalCryptogram"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="FrenchMusicalCryptogram"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Programs/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
